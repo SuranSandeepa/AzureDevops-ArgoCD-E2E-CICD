@@ -1,5 +1,14 @@
 #!/bin/bash
-set -xe
+
+######################################
+# Author: Suran Sandeepa
+# Date: 4th December 2024
+# Description: Update the K8s manifest files in azure repos
+# version: v2
+######################################
+
+
+set -xe #enable debug mode
 
 #Set the repository URL
 REPO_URL="https://<ACCESS-TOKEN>@dev.azure.com/<AZURE-DEVOPS-ORG-NAME>/voting-app/_git/voting-app"
